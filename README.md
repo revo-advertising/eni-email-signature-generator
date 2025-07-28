@@ -7,7 +7,7 @@ This Python script automatically generates personalized email signature images u
 Each team member gets a personalized signature image:
 ```bash
 signatures/
-├── Salma_Benali.png
+├── Nacer_Diouri.png 
 ├── Youssef_El_Amrani.png
 ├── Ahmed_El_Idrissi.png
 └── Fatima_Zahra_El_Fassi.png
@@ -35,9 +35,9 @@ Python 3.10.10
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/revo-advertising/cfmdv-email-signature-generator.git && cd cfmdv-email-signature-generator
+git clone https://github.com/revo-advertising/eni-email-signature-generator.git && cd eni-email-signature-generator
 ```
-    or download the zip from github : https://github.com/revo-advertising/cfmdv-email-signature-generator and extract it
+    or download the zip from github : https://github.com/revo-advertising/eni-email-signature-generator/archive/refs/heads/main.zip and extract it
 
 2. install dependencies && run :
     - run in linux and mac OS
@@ -56,11 +56,11 @@ git clone https://github.com/revo-advertising/cfmdv-email-signature-generator.gi
 ```python
 people = [
     {
-        "name": "mohamed fari",
-        "role": "Responsable Marketing",
-        "email": "m.fari@cfmdv.ma",
-        "website": "www.cfmdv.ma",
-        "phone": "+212 60 00 00 00"
+        "name": "Nacer DIOURI",
+        "role": "Directeur Général",
+        "phone": "+212 6 00 00 00 00",
+        "fax": "+212 5 00 00 00 00",
+        "website": "www.eni.ma"
     },
     ...
 ]
