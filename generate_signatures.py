@@ -35,7 +35,7 @@ font_sizes = {
 # Element Colors
 color = {
     "title": (31, 54, 89),
-    "role": (173, 45, 38),
+    "role": (192, 48, 36),
     "info": (112, 112, 111),
     "website": (31, 54, 89),
 } 
