@@ -1,6 +1,8 @@
+
 VENV_DIR := venv
 PYTHON := python3
 PIP := $(VENV_DIR)/bin/pip
+ACTIVATE := source $(VENV_DIR)/bin/activate
 
 all: install run
 
@@ -14,9 +16,9 @@ install:
 	@echo "✅ Dependencies installed."
 
 run:
-	@echo "🚀 Running the Streamlit signature generator..."
-	$(VENV_DIR)/bin/streamlit run generate_signatures.py
-	@echo "✅ Streamlit app launched."
+	@echo "🚀 Running the signature generator..."
+	$(VENV_DIR)/bin/python generate_signatures.py
+	@echo "✅ Signature generation completed."
 
 clean:
 	@echo "🧹 Cleaning environment..."
